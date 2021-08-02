@@ -190,9 +190,9 @@ CREATE TABLE public.test_item (
 ALTER TABLE ONLY public.test_item
     ADD CONSTRAINT test_item_pkey PRIMARY KEY (id);
 
-INSERT INTO public.test_item (id, value) VALUES ('1', 'TEST_VALUE_1');
-INSERT INTO public.test_item (id, value) VALUES ('2', 'TEST_VALUE_1');
-INSERT INTO public.test_item (id, value) VALUES ('3', 'TEST_VALUE_1');
+INSERT INTO public.test_item (id, value) VALUES ('1', 'Value no. 1');
+INSERT INTO public.test_item (id, value) VALUES ('2', 'Wow, value 2');
+INSERT INTO public.test_item (id, value) VALUES ('3', 'This is the third value!!');
 
 
 -- Completed on 2021-07-29 21:17:10
